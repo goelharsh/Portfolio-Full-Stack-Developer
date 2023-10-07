@@ -369,8 +369,8 @@ a{
     height: 550px;
 
     background-image: url(./images/projects/Project1.png);
-    background-size: cover;   
-
+    background-size:contain;   
+    object-fit: contain;
     /* hmne car ke uper content place krvana hai so hmne card ko relative kr dia */
     position: relative;
     box-shadow: 0px 0px 40px #1f1f1f;
@@ -541,18 +541,19 @@ a{
 }
 
 #project1{
-    background-image: url(./images/projects/Project1.png) ;
+    background-image: url(./images/projects/mega.png);
+
 }
 #project2{
     margin-left: 120px;
-    background-image: url(./images/projects/Project2.png) ;
+    background-image: url(./images/projects/4.png) ;
 }
 #project3{ 
-    background-image: url(./images/projects/Project3.png) ;
+    background-image: url(./images/projects/5.png) ;
 }
 #project4{
     margin-left: 120px;
-    background-image: url(./images/projects/Project4.png) ;
+    background-image: url(./images/projects/3.png) ;
 }
 
 
